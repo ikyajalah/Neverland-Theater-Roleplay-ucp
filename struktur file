@@ -1,0 +1,5 @@
+ucp/
+│── index.html      (halaman login)
+│── register.html   (halaman register)
+│── profile.html    (halaman profil contoh)
+│── style.css       (tampilan)
