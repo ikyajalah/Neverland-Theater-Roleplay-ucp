@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Register - SA-MP UCP</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naratip Roleplay</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <h2>Buat Akun Baru</h2>
-    <form>
-        <input type="text" placeholder="Username" required><br>
-        <input type="email" placeholder="Email" required><br>
-        <input type="password" placeholder="Password" required><br>
-        <input type="password" placeholder="Konfirmasi Password" required><br>
-        <button type="submit">Daftar</button>
-    </form>
-    <p>Sudah punya akun? <a href="index.html">Login</a></p>
-</div>
+    <header>
+        <h1>Naratip Roleplay</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="register.html">Pendaftaran</a></li>
+                <li><a href="characters.html">Karakter</a></li>
+                <li><a href="gallery.html">Galeri</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Selamat Datang di Naratip Roleplay!</h2>
+        <p>Jadilah bagian dari komunitas kami dan buat karakter unik Anda sendiri.</p>
+        <button id="infoButton">Info Lebih Lanjut</button>
+        <div id="info" style="display: none;">
+            <p>Naratip Roleplay adalah platform untuk bermain peran dengan karakter yang dapat disesuaikan.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Naratip Roleplay. Semua hak dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
